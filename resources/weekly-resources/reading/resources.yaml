@@ -1,0 +1,41 @@
+articles:
+  - https://medium.com/geekculture
+  - https://github.com/michael-simons/goodreads
+frontend:
+  - https://blog.nrwl.io/micro-frontends-using-module-federation-presets-for-react-and-storybook-typescript-compiler-4120cf134816
+  - https://microfrontends.info/microfrontends/
+  - https://micro-frontends.org/
+  - https://modernjs.dev/docs/start/mobile
+
+testing:
+  - https://www.testim.io/blog/how-to-implement-record-and-playback-in-selenium/
+  - https://applitools.com/blog/selenium-4/
+  - https://github.com/codeSTACKr/free-developer-resources
+  - https://github.com/koodeex/allure-testify
+tools:
+  - https://getstream.io/
+  - https://www.internal.io/docs/glossary
+  - https://github.com/iGaoWei/BigDataView
+  - https://github.com/nestcn/docs.nestjs.cn
+  - https://github.com/ian/next-graphql.git
+  - https://github.com/typelevel/
+  - https://github.com/batchcorp
+  - https://github.com/Catrobat
+  - https://github.com/mailru
+  - https://github.com/ajstarks
+  - https://github.com/modern-js-dev/codesmith
+
+ntf-art:
+  - https://github.com/sepandhaghighi/samila
+
+message:
+  - https://github.com/w7corp/easywechat
+
+jira-plugins:
+  - https://github.com/everit-org/jira-worklog-query-plugin.git
+  - https://github.com/laszlomiklosik/jenkins-jira-issue-updater
+  - https://github.com/everit-org/jira-timetracker-plugin
+  - https://github.com/VaclavDedik/planning-poker-plugin
+  - https://github.com/rhevm-qe-automation/pytest_jira
+  - https://github.com/MeetMe
+  - https://github.com/atlascommunity

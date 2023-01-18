@@ -1,0 +1,15 @@
+tools:
+  - https://www.teambition.com/
+  - https://sudo.feishu.cn/docs/doccnFFtVw8KEfoM72ZkUTmqxeH
+  - https://docs.gitlab.com/
+repos:
+  - https://github.com/MrRefactoring
+  - https://github.com/github/ghas-jira-integration
+
+vendors:
+  - https://docs.alertlogic.com/
+  - https://bigbrassband.com/
+
+reading:
+  - https://dev.to/kro12/automatically-transition-jira-issues-using-a-github-webhook-2i75
+  - https://medium.com/@aneudupi/jira-workflow-automation-using-github-web-hooks-6e23622f618

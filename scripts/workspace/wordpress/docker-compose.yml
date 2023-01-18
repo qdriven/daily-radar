@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  db:
+    image: mysql/mysql-server:latest
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    command:
+      [
+        --default-authentication-plugin=mysql_native_password,
+        --character-set-server=utf8mb4,
+        --collation-server=utf8mb4_unicode_ci
+      ]
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    volumes:
+      - ./site_data:/var/www/html
+      - ./wp-content/themes/:/var/www/html/wp-content/themes
+      - ./wp-content/plugins/:/var/www/html/wp-content/plugins
+    ports:
+      - "9000:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress

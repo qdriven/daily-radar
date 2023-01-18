@@ -1,0 +1,29 @@
+version: "3.7"
+services:
+    db:
+        image: mariadb:latest
+        ports:
+            - "3206:3306"
+        volumes:
+            - ./mysql_data:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: wordpress
+            MYSQL_USER: wordpress
+            MYSQL_PASSWORD: wordpress
+    wordpress:
+        image: wordpress
+        ports:
+            - "9000:80"
+        volumes:
+            - ./site_data:/var/www/html
+            - ./wp-content/themes/:/var/www/html/wp-content/themes
+            - ./wp-content/plugins/:/var/www/html/wp-content/plugins
+        environment:
+            WORDPRESS_DB_HOST: db:3206
+            WORDPRESS_DB_USER: root
+            WORDPRESS_DB_PASSWORD: password
+        depends_on:
+            - db
+        links:
+            - db

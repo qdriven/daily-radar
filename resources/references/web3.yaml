@@ -1,0 +1,33 @@
+github:
+  - https://github.com/scaffold-eth/scaffold-eth-challenges
+  - https://github.com/scaffold-eth/buidlguidl-v3
+  - https://github.com/smartcontractkit/hardhat-starter-kit
+  - https://github.com/wighawag/hardhat-preprocessor
+  - https://github.com/smartcontractkit/full-blockchain-solidity-course-js
+  - https://github.com/yuichiroaoki/typescript-hardhat
+  - https://github.com/connext/chaindata
+  - https://github.com/ybeario/blockchain_springboot
+  - https://github.com/ivangfr/ethereum-springboot-react
+  - https://github.com/scaffold-eth/scaffold-eth-typescript
+github_awesome:
+  - https://github.com/bkrem/awesome-solidity
+
+github_following:
+  - https://github.com/sambacha
+  - https://github.com/kaleido-io
+  - https://github.com/NWLD
+  - https://github.com/NFT-Worlds
+  - https://github.com/scaffold-eth
+  - https://github.com/iskdrews
+  - https://github.com/TrueFiEng
+podcast:
+  - https://www.xiaoyuzhoufm.com/podcast/6020f8140c19368f750c631e  
+tutorials:
+  - https://wiki.hyperledger.org/display/CASIG/DAO
+  - 
+  - https://speedrunethereum.com/
+  - https://hardhat.org/hardhat-runner/docs/guides/project-setup
+  - https://github.com/sparrow/smart-contract-tutorial
+  - https://docs.zksync.io/userdocs/intro/#zksync-features
+  - https://starkware.co/stark-101/
+  - https://multis.co/

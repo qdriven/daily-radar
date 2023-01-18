@@ -1,0 +1,52 @@
+repos:
+  - https://github.com/orgs/OpenZeppelin/repositories
+  - https://github.com/l2beat/l2beat
+chains:
+  - name: starkware
+    github: https://github.com/starkware-libs/
+    medium: https://medium.com/starkware/starknet/home
+    hackmd: https://hackmd.io/@MvmrwldqQeWI1UQX31hSHQ/ryN2W3k8U
+    wallet: https://giters.com/pedrouid/starkware-wallet
+  - name: gnosis
+    github: https://github.com/gnosis
+  - name: NethermindEth
+    github: https://github.com/NethermindEth
+  - name: graph protocol
+    github: https://github.com/graphprotocol/graph-node
+  - name: lightingnetwork
+    github: https://github.com/lightningnetwork/lnd
+  - name: ipfs
+    github: https://github.com/ipfs/ipfs-desktop  
+vc:
+  - https://www.wing.vc/
+  - https://www.paradigm.xyz/portfolio/
+news:
+  - https://newsletter.ether.fm/p/constitutiondao-raises-40-million
+  - https://crowfinance.medium.com/
+  - https://medium.com/starkware/on-the-road-to-starknet-a-permissionless-stark-powered-l2-zk-rollup-83be53640880
+  - https://github.com/wjw465150?tab=repositories
+  - https://bejamas.io/
+repo:
+  - https://github.com/socool/defi
+  - https://github.com/ethereum-boilerplate
+  - https://docs.gaia-pipeline.io/rfcs/0001_distributed_execution_of_pipelines/
+  - https://github.com/matheus-sfti/typescript-template
+  - https://giters.com/ethereum-boilerplate/ethereum-boilerplate
+  - https://github.com/bleenco
+  - https://github.com/0xsequence/sequence.js
+  - https://github.com/yapyeeqiang/
+  - https://yapyeeqiang.netlify.app/
+  - https://github.com/harryYao?tab=repositories
+  - https://github.com/manifoldfinance
+  - https://github.com/alchemyplatform
+  - https://github.com/sambacha/web3-rpc-failover
+  - https://github.com/Drakkar-Software/OctoBot
+  - https://docs.fortmatic.com/
+  - https://play.decentraland.org/
+  - https://gitcoin.co/grants/explorer/?page=6&limit=12&me=false&sort_option=-metadata__upcoming&collection_id=false&network=mainnet&state=active&profile=false&sub_round_slug=false&collections_page=1&grant_regions=&grant_types=&grant_tags=&tenants=&idle=false&featured=true&round_type=false&tab=grants
+  - https://poocoin.app/external-tools
+  - https://tokensniffer.com/
+  - http://bscheck.eu/
+
+reading:
+  - https://blknoiz06.substack.com/p/quarter-i-2022  

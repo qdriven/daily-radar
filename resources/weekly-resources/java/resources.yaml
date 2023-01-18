@@ -1,0 +1,3 @@
+plugin-framework:
+  - https://github.com/suvodeep-pyne/java-plugin-quickstar
+  - https://github.com/kythe/kythe

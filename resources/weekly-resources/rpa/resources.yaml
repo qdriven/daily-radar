@@ -1,0 +1,14 @@
+resouces:
+  - https://github.com/saucepleez/taskt
+  - https://github.com/open-rpa/openrpa
+  - https://github.com/open-rpa/openflow
+  - https://github.com/A9T9/RPA.git
+  - https://github.com/kelaberetiv/TagUI.git
+  - https://github.com/topics/robot-framework
+
+sites:
+  - https://powerautomate.microsoft.com/zh-cn/robotic-process-automation/
+  - https://www.automationanywhere.cn/
+  - https://robocorp.com/
+  - https://github.com/Accruent
+  - https://content.microfocus.com/robotic-process-automation-tb/rpa-essentials-what-?lx=jNs_Bd&utm_source=techbeacon

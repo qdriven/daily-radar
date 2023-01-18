@@ -1,0 +1,13 @@
+sites:
+  - https://kind.sigs.k8s.io/
+  - https://tekton.dev/
+  - https://github.com/orgs/jenkins-x/repositories?type=all
+  - https://github.com/couler-proj/couler
+  - https://ruzickap.github.io/k8s-knative-gitlab-harbor/part-01/#prepare-the-local-working-environment
+  - https://support.huaweicloud.com/migration-devcloud/devcloud_migration_0009.html
+  - https://knative.dev/docs/getting-started/
+  
+personal:
+  - https://github.com/cnych/qikqiak.com
+  - https://github.com/cnych/kubernetes-learning
+  - https://www.qikqiak.com/post/gitops-devops-on-k8s/

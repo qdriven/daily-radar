@@ -1,0 +1,15 @@
+repos:
+  - https://github.com/aliesbelik/how-they-load
+  - https://github.com/artilleryio/artillery
+  - https://github.com/serputko/performance-testing-framework
+  - https://github.com/flood-io/element
+  - https://docs.locust.io/en/stable/
+  - https://github.com/metersphere/metersphere
+  - https://github.com/atinfo/awesome-test-automation
+  - https://github.com/orgs/metersphere/repositories
+  - https://github.com/AppiumTestDistribution
+tools:
+  - https://www.predator.dev/
+  - https://tools.miku.ac/
+  - https://github.com/QData
+  

@@ -7,3 +7,6 @@ Topics includes:
 - Automation Testing tools
 - and a lot of others
   
+## Daily: 英语单词
+
+- [2023-01-18-互联网话术-**hypocrisy**](docs/hypocrisy/话术.md)

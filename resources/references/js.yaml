@@ -1,0 +1,13 @@
+github:
+  - https://github.com/typescript-cheatsheets
+  - https://github.com/zhennann/cabloy
+  - https://github.com/Innei/Innei.git
+  - https://github.com/mx-space/core
+  - https://github.com/mikeal/publish-to-github-action
+  - https://github.com/steelydylan/Awesome
+github_following:
+  - https://github.com/chawk
+  - https://github.com/one-aalam
+  - https://github.com/open-source-labs
+product:
+  - https://react-query-v3.tanstack.com/overview

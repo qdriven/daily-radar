@@ -1,0 +1,62 @@
+version: '3.9'
+networks:
+  qe-networks:
+# 自定义网络
+
+services:
+    wordpress:
+        # 选中带有php-fpm 的版本，wordpress docker上有很多版本，根据自己情况选择需要的版本
+        image: wordpress:5.8.1-php8.0-fpm
+        # 把wordpress的主体文件夹映射到本地 wordpress目录
+        volumes:
+            - ./wordpress:/var/www/html
+        # 环境变量 根据mysql 设置的填入
+        environment:
+            WORDPRESS_DB_HOST: mariadb:3306
+            WORDPRESS_DB_USER: wordpress
+            WORDPRESS_DB_PASSWORD: wordpress-pass
+            WORDPRESS_DB_NAME: wordpress
+        # 设置依赖
+        depends_on:
+            - mariadb
+        restart: always
+        networks:
+            - qe-networks
+
+    mariadb:
+        image: mariadb:latest
+        expose:
+          - "3306"
+        volumes:
+          - ./mysql:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root-pass
+            MYSQL_DATABASE: wordpress
+            MYSQL_USER: wordpress
+            MYSQL_PASSWORD: wordpress-pass
+            MYSQL_RANDOM_ROOT_PASSWORD: 1
+          # 使用随机root密码
+
+        #这里使用命令登陆，删除后可能于新版mysql不兼容
+        command: [--default-authentication-plugin=mysql_native_password, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci]
+        #挂掉自动重启
+        restart: always
+        networks:
+            - qe-networks
+
+    nginx:
+        image: nginx:latest
+        ports:
+            - '80:80'
+            - '443:443'
+        # 映射本地，加载本地的配置
+        volumes:
+            - ./nginx:/etc/nginx/conf.d    #注意服务器配置文件的映射位置，如果需要修改配置，直接修改映射的文件即可
+            - ./logs/nginx:/var/log/nginx
+            - ./wordpress:/var/www/html  #这里选择本地wordpress即 wordpress。docker中的目录
+        depends_on:
+            - wordpress
+        restart: always
+        networks:
+            - qe-networks
+    

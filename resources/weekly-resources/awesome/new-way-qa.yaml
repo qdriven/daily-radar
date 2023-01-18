@@ -1,0 +1,16 @@
+resources:
+  - https://www.websiterating.com/
+  - https://wiki.zpodcasts.com/
+  - https://www.jiemian.com/article/5691594.html
+  - https://www.xiaoyuzhoufm.com/
+  - http://justpodmedia.com/
+
+stream:
+  - https://github.com/DIYgod/RSSHub
+  - https://github.com/Molunerfinn/PicGo
+  - https://github.com/dataabc/weiboSpider
+  - https://github.com/SpiderClub/weibospider
+  - https://github.com/nghuyong/WeiboSpider
+  - https://github.com/CharlesPikachu/DecryptLogin
+  - https://github.com/Python3Spiders/WeiboSuperSpider
+  - https://github.com/zgq354/weibo-rss

@@ -1,0 +1,129 @@
+dev_tips:
+  - https://github.com/spring-tips
+  - https://github.com/release-it
+  - https://github.com/merico-dev
+
+qa_product:
+  - https://www.qmetry.com/get-started-page/
+  - https://niftypm.com/
+  - https://www.tooltester.com/en/blog/best-free-website-builders/#webnode
+  - https://www.websiterating.com/website-builders/best-squarespace-alternatives/
+  - https://mofluid.com/blog/
+  - https://www.qmetry.com/automated-testing-tools-qmetry-automated-studio/
+payments:
+  - https://www.patreon.com/zh-CN
+edu_product:
+  - https://www.pirple.com/
+  - https://exercism.org/mentoring
+  - https://qvault.io/
+  - https://www.freecodecamp.org/
+  - https://www.squarespace.com/templates
+  - https://github.com/idno
+  - https://www.toptal.com/
+  - https://fireship.io/
+  - https://github.com/fireship-io
+  - https://quine.sh/
+  - https://sourcery.ai/
+  - https://pitch.com/use-cases/pitch-decks
+docs:
+  - https://github.com/h-enk/doks
+  - https://themes.gohugo.io/themes/hugo-theme-techdoc/
+  - https://github.com/nanxiaobei/hugo-paper
+ops_tips:
+  - https://github.com/fastgh/fgit
+  - https://github.com/reviewdog/reviewdog
+
+qe_topics:
+  - https://github.com/topics/api-testing
+  - https://github.com/DeploySentinel/Recorder?ref=producthunt
+  - https://github.com/topics/cms-framework?o=desc&s=stars
+  - https://github.com/surmon-china/nodepress
+  - https://github.com/directus
+  - https://github.com/kuangshp/nestjs-mysql-api
+  - https://keystonejs.com/
+  - https://github.com/topics/social-network
+  - https://github.com/topics/indieweb
+  - https://github.com/topics/cms
+low-codes:
+  - https://github.com/ToolJet/ToolJet
+  - https://github.com/Treblle
+  - https://docs.retool.com/docs
+  - https://github.com/tryretool
+
+wikis:
+  - https://github.com/apachecn/javatpoint-python-zh
+  - https://learnku.com/go/wikis
+  - https://github.com/sunface/rust-course
+  - https://github.com/sunface
+  - https://github.com/shenwei356?tab=repositories
+  - https://github.com/liaoherui?tab=repositories
+  - https://review.firstround.com/
+  - https://growjo.com/
+
+blockchain:
+  - https://github.com/sambacha
+  - https://github.com/PatrickAlphaC?tab=repositories
+  - https://github.com/DeFiCh
+  - https://github.com/0xProject
+  - https://github.com/openmev
+  - https://www.cues.sg/
+  - https://talent.moralis.io/
+  - https://ethereum.org/en/
+  - https://www.moderndatastack.xyz/
+
+java_tools:
+  - https://github.com/nomemory/mapneat.git
+  - https://github.com/java-json-tools
+  - https://github.com/jhthorsen/json-validator
+  - https://github.com/eclipse-ee4j/beanvalidation-api
+  - https://github.com/networknt/json-schema-validator
+  - https://github.com/everit-org/json-schema
+  - https://github.com/swagger-api/validator-badge
+  - https://github.com/finos/datahelix
+  - https://github.com/RepreZen/KaiZen-OpenApi-Parser
+  - https://github.com/leadpony/justify
+  - https://github.com/bootiful-spring-graalvm
+  - https://github.com/jhudsl
+
+java_keywords:
+  - json validator
+
+python_tools:
+  - https://github.com/HariSekhon/DevOps-Python-tools
+  - https://github.com/horejsek/python-fastjsonschema
+  - https://github.com/Grokzen/pykwalify
+  - https://github.com/pennsignals/aptos
+  - https://github.com/DeanWay/pydantic-jsonapi
+  - https://github.com/closeio/cleancat
+  - https://github.com/dchaplinsky/aiohttp_validate
+  - https://github.com/wwkimball/yamlpath
+  - https://github.com/max-sixty
+  - https://github.com/arjancodes
+  - https://github.com/python-engineer
+  - https://www.django-rest-framework.org/
+
+go_tools:
+  - https://github.com/quackduck/devzat
+  - https://github.com/bitfield
+keywords:
+  - rpa
+  - dbt
+  - notion blog
+  - rss-reader
+carbon:
+  - https://github.com/protea-earth
+  - https://github.com/TaylorPrewitt
+  - https://github.com/Green-Software-Foundation/awesome-green-software#data-centers
+  - https://ecochain.com/
+  - https://www.preprints.org/manuscript/202110.0441/v1
+  - https://sphera.com/infographic/how-does-life-cycle-assessment-lca-work/
+  - https://news.sap.com/2020/06/launch-sap-carbon-product-carbon-footprint-analytics/
+  - https://www.sciencedirect.com/science/article/pii/S2212827119306407
+  - https://docs.airplane.dev/getting-started/overview
+  - https://www.smefund.tid.gov.hk/english/sdf/deliverables/Guideline_G_BOM_Analyzer_eng.pdf
+rss:
+  - https://github.com/hello-efficiency-inc/raven-reader.git
+  - https://github.com/yang991178/fluent-reader
+  - https://github.com/AboutRSS/ALL-about-RSS
+  - https://github.com/osmoscraft/osmosfeed
+  - https://github.com/FreshRSS/FreshRSS
