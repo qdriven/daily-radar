@@ -5,8 +5,5 @@ sites:
   - https://www.zscaler.com/
   - https://runtimeverification.com/blog
   - https://spacecadet.ventures/web3-2022-trends
-keywords:
-  - cosmos
-  - icp
 repos:
   - https://github.com/opengsn
