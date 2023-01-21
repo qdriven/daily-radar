@@ -1,4 +1,34 @@
+program_edu:
+  - https://www.codecademy.com/
+  - https://launchschool.com/
+  - https://www.postgresqltutorial.com/
+sites:
+  - https://kind.sigs.k8s.io/
+  - https://tekton.dev/
+  - https://github.com/orgs/jenkins-x/repositories?type=all
+  - https://github.com/couler-proj/couler
+  - https://ruzickap.github.io/k8s-knative-gitlab-harbor/part-01/#prepare-the-local-working-environment
+  - https://support.huaweicloud.com/migration-devcloud/devcloud_migration_0009.html
+  - https://knative.dev/docs/getting-started/
+  - http://functionize.com/
+  - http://opentestdata.org/
+  - https://www.test.ai/blog
+  - https://appvance.com/
+  - https://www.aitesting.org/
+  - https://www.tricentis.com/
+  - https://techbeacon.com/app-dev-testing
+  - https://www.infosys.com/services/validation-solutions/service-offerings/machine-learning-qa.html
+  - https://content.microfocus.com/l/software-test-automation-tb?utm_source=techbeacon&utm_medium=techbeacon&utm_campaign=00134846
+  - https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&utm_source=techbeacon&utm_medium=techbeacon&utm_campaign=00134846
+personal:
+  - https://github.com/cnych/qikqiak.com
+  - https://github.com/cnych/kubernetes-learning
+  - https://www.qikqiak.com/post/gitops-devops-on-k8s/
+
 todo:
+  - https://www.wing.vc/the-modern-enterprise
+  - https://github.com/hive-school/template-jetbrains-ide-course.git
+  - https://www.scrapingbee.com/
   - https://github.com/Treblle
   - https://0x.supply/
   - https://unstoppabledomains.com/auth
